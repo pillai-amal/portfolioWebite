@@ -1,0 +1,182 @@
+body {
+    font-family: 'Hind Madurai', sans-serif;
+
+}
+
+section {
+    background-color: beige;
+    border: solid black 1px;
+}
+
+.main {
+    background-color: silver;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 100px) {
+    .project-container {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    background-color: darkgrey;
+    color: snow;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.main-box {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-container {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    justify-content: space-evenly;
+}
+
+.main-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: coral;
+}
+
+.button:active {
+    background-color: snow;
+    color: black;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.project-description {
+    font-size: 15px;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.project-subtext {
+    font-size: 20px;
+}
+
+.view-proj-link {
+    text-decoration: none;
+    color: orange;
+
+}
+
+a {
+    text-decoration: none;
+    color: snow;
+    text-shadow: 5px 5px 5px burlywood;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: snow;
+        font-size: 30px;
+    }
+    
+    ul {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+    }
+}
